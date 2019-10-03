@@ -2,41 +2,47 @@ package DynamicProgramming;
 
 /**
  * Created by hatim.lokhandwala on 05/07/19.
+ * A message containing letters from A-Z is being encoded to numbers using the following mapping:
+ * 'A' -> 1
+ * 'B' -> 2
+ * ...
+ * 'Z' -> 26
+ * Given a non-empty string containing only digits, determine the total number of ways to decode it.
+ * Eg:  i/p : 12
+ * 		o/p : 2 (AB or L)
+ * 		i/p : 226
+ * 		o/p : BBF, BZ, VF
  */
+
 public class WaysToDecode {
 	public static int numDecodings(String A) {
-		int strLen = A.length();
-		if(A == null || strLen == 0) {
+		int len = A.length();
+		if(len == 0 || A.charAt(0) == '0') {
 			return 0;
 		}
-		int[] dp = new int[strLen + 1];
+		int[] dp = new int[len + 1];
 		dp[0] = 1;
 		dp[1] = 1;
-		if(A.charAt(0) == '0') {
-			dp[1] = 0;
-		}
-		int ways = 0;
-		for(int i = 1; i < strLen; i++) {
-			int number = A.charAt(i) - 48;
-			if(number == 0) {
-				if(A.charAt(i - 1) > 50 || A.charAt(i - 1) == 48) {
-					return 0;
-				}
-				dp[i + 1] = dp[i - 1];
-			} else {
-				ways = dp[i];
-				int twoDigitNum = ((A.charAt(i - 1) - 48) * 10 + number);
-				if( twoDigitNum <= 26 && twoDigitNum >= 10) {
-					ways += dp[i - 1];
-				}
-				dp[i + 1] = ways;
+		for(int i = 1; i < A.length(); i++) {
+			char ch = A.charAt(i);
+			char chPrev = A.charAt(i-1);
+			int number = (chPrev - 48) * 10 + (ch - 48);
+			if(ch != '0') {
+				dp[i+1] = dp[i];
+			}
+			if(number <= 26 && number >= 10) {
+				dp[i+1] += dp[i-1];
 			}
 		}
-		return dp[strLen];
+		return dp[len];
 	}
 
 	public static void main(String[] args) {
-		numDecodings("2611055971756562");
+		System.out.println(numDecodings("261155971756562"));
+		System.out.println(numDecodings("226"));
+		System.out.println(numDecodings("12"));
 	}
 
 }
+
+
