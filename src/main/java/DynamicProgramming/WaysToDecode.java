@@ -1,4 +1,4 @@
-package dp;
+package DynamicProgramming;
 
 /**
  * Created by hatim.lokhandwala on 05/07/19.

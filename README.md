@@ -4,10 +4,14 @@ Repo is organized into different topics as follows
 # Arrays
 Question             | Solution
 -------------------- | --------------------
-Almost Sorted | [Solution](src/main/java/Arrays/AlmostSorted.java)
+Almost Sorted        | [Solution](src/main/java/Arrays/AlmostSorted.java)
+Peak Element         | [Solution](src/main/java/Arrays/PeakElement.java)
 
 
-# DP
+# Dynamic Programming
+Question            | Solution
+--------------------| -----------------
+Rod Cutting         | [Solution](src/main/java/DynamicProgramming/RodCutting.java)
 
 # Graphs
 
