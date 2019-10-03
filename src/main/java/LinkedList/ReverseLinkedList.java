@@ -1,13 +1,14 @@
 package LinkedList;
 
 /*
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+ * Given a linked list, reverse the linked list
+ * Eg:  Input  1 --> 2 --> 3 --> 4 --> null
+ * 		Output 4 --> 3 --> 2 --> 1 --> null
+ * Below are two approaches to reverse the linked list
+ * - iterative
+ * - recursive
 */
+
 
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {

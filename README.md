@@ -2,6 +2,9 @@
 Repo is organized into different topics as follows
 
 # Arrays
+Question             | Solution
+-------------------- | --------------------
+Almost Sorted | [Solution](src/main/java/Arrays/AlmostSorted.java)
 
 
 # DP
