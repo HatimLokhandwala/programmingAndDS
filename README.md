@@ -11,6 +11,7 @@ Question             | Solution
 Almost Sorted        | [Solution](src/main/java/Arrays/AlmostSorted.java)
 Peak Element         | [Solution](src/main/java/Arrays/PeakElement.java)
 QuickSort            | [Solution](src/main/java/Arrays/QuickSort.java)
+InsertionSort            | [Solution](src/main/java/Arrays/InsertionSort.java)
 ------------------------------------------------------------------------
 
 # Dynamic Programming
