@@ -1,6 +1,5 @@
 # programmingAndDS
-Repo is organized into different topics as follows
-Each question contains a brief description about the problem, 
+Repo is organized into different topics given below. Each question contains a brief description about the problem, 
 along with i/p and o/p examples
 
 ------------------------------------------------------------------------
