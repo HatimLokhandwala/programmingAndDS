@@ -19,7 +19,11 @@ Question            | Solution
 --------------------| -----------------
 Rod Cutting         | [Solution](src/main/java/DynamicProgramming/RodCutting.java)
 Ways To Decode         | [Solution](src/main/java/DynamicProgramming/WaysToDecode.java)
-
+------------------------------------------------------------------------
+# Trees
+Question            | Solution
+--------------------| -----------------
+Validate for BST         | [Solution](src/main/java/Tree/ValidateBST.java)
 ------------------------------------------------------------------------
 # Graphs
 
