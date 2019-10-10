@@ -2,6 +2,7 @@
 Repo is organized into different topics given below. Each question contains a brief description about the problem, 
 along with i/p and o/p examples
 
+(This README is WIP with certain solutions present in repo but not yet added to this index, alongside new programs are being added to it as well.  Open for contributions.)
 ------------------------------------------------------------------------
 # Arrays
 ##### Comprises questions/solutions on topics such as sorting, searching, etc.
