@@ -27,6 +27,7 @@ Question            | Solution
 --------------------| -----------------
 Validate for BST         | [Solution](src/main/java/Tree/ValidateBST.java)
 Right Side View         | [Solution](src/main/java/Tree/RightSideView.java)
+Path Sum         | [Solution](src/main/java/Tree/PathSum.java)
 ------------------------------------------------------------------------
 # Graphs
 
