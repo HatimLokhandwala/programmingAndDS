@@ -12,6 +12,7 @@ Almost Sorted        | [Solution](src/main/java/Arrays/AlmostSorted.java)
 Peak Element         | [Solution](src/main/java/Arrays/PeakElement.java)
 QuickSort            | [Solution](src/main/java/Arrays/QuickSort.java)
 InsertionSort            | [Solution](src/main/java/Arrays/InsertionSort.java)
+Duplicate Zeros            | [Solution](src/main/java/Arrays/DuplicateZeros.java)
 ------------------------------------------------------------------------
 
 # Dynamic Programming
@@ -24,6 +25,7 @@ Ways To Decode         | [Solution](src/main/java/DynamicProgramming/WaysToDecod
 Question            | Solution
 --------------------| -----------------
 Validate for BST         | [Solution](src/main/java/Tree/ValidateBST.java)
+Right Side View         | [Solution](src/main/java/Tree/RightSideView.java)
 ------------------------------------------------------------------------
 # Graphs
 
