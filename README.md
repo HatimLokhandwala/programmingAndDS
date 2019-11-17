@@ -15,6 +15,7 @@ QuickSort            | [Solution](src/main/java/Arrays/QuickSort.java)
 InsertionSort        | [Solution](src/main/java/Arrays/InsertionSort.java)
 Duplicate Zeros      | [Solution](src/main/java/Arrays/DuplicateZeros.java)
 Find Duplicate       | [Solution](src/main/java/Arrays/FindDuplicates.java)
+Shift 2D Grid        | [Solution](src/main/java/Arrays/Shift2DGrid.java)
 ------------------------------------------------------------------------
 
 # Dynamic Programming
