@@ -49,6 +49,12 @@ Question             | Solution
 -------------------- | --------------------
 Reverse words | [Solution](src/main/java/strings/ReverseWords.java)
 
+------------------------------------------------------------------------
+# Misc
+Question             | Solution
+-------------------- | --------------------
+Remove Intervals | [Solution](src/main/java/misc/IntervalRemoval.java)
+
 
 ------------------------------------------------------------------------
 
