@@ -54,6 +54,7 @@ Reverse words | [Solution](src/main/java/strings/ReverseWords.java)
 Question             | Solution
 -------------------- | --------------------
 Remove Intervals | [Solution](src/main/java/misc/IntervalRemoval.java)
+Moving Average   | [Solution](src/main/java/misc/MovingAverage.java)
 
 
 ------------------------------------------------------------------------
