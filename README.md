@@ -31,6 +31,7 @@ Validate for BST         | [Solution](src/main/java/Tree/ValidateBST.java)
 Right Side View         | [Solution](src/main/java/Tree/RightSideView.java)
 Path Sum         | [Solution](src/main/java/Tree/PathSum.java)
 Path Sum II         | [Solution](src/main/java/Tree/PathSumII.java)
+Invert Tree         | [Solution](src/main/java/Tree/InvertTree.java)
 ------------------------------------------------------------------------
 # Graphs
 
