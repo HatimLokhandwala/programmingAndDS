@@ -2,6 +2,7 @@ package Arrays;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -15,12 +16,9 @@ class Interval {
 	Interval(int s, int e) { start = s; end = e; }
 }
 
-class Solution1 {
-	public ArrayList<Interval> merge(ArrayList<Interval> intervals) {
-//		List<Interval> inputList = intervals;
-		Collections.sort(intervals, (i1, i2) -> {
-			return i1.start -i2.start;
-		});
+class Solution {
+	public ArrayList<Interval> merge(List<Interval> intervals) {
+		Collections.sort(intervals, Comparator.comparingInt(i -> i.start));
 		ArrayList<Interval> output = new ArrayList<>();
 		output.add(intervals.get(0));
 		for(int i = 1; i < intervals.size(); i++) {
@@ -38,10 +36,14 @@ class Solution1 {
 
 
 public class MergeIntervals {
-
 	public static void main(String[] args) {
-		Solution1 s = new Solution1();
-//		s.merge();
-		String str;
+		Solution s = new Solution();
+		List<Interval> list = new ArrayList<>();
+		list.add(new Interval(1,5));
+		list.add(new Interval(-1,20));
+		list.add(new Interval(4,15));
+		list.add(new Interval(100,150));
+		list.add(new Interval(120,500));
+		s.merge(list);
 	}
 }
