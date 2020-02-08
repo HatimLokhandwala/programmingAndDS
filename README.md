@@ -55,11 +55,18 @@ Min Window Substring | [Solution](src/main/java/strings/MinWindowSubstring.java)
 Remove Duplicates | [Solution](src/main/java/strings/RemoveDuplicates.java)
 
 ------------------------------------------------------------------------
+# Backtracking
+Question             | Solution
+-------------------- | --------------------
+N Queens | [Solution](src/main/java/BackTracking/NQueens.java)
+
+------------------------------------------------------------------------
 # Misc
 Question             | Solution
 -------------------- | --------------------
 Remove Intervals | [Solution](src/main/java/misc/IntervalRemoval.java)
 Moving Average   | [Solution](src/main/java/misc/MovingAverage.java)
+
 
 
 ------------------------------------------------------------------------
