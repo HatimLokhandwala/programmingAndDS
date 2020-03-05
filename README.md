@@ -53,6 +53,8 @@ Question             | Solution
 Reverse words | [Solution](src/main/java/strings/ReverseWords.java)
 Min Window Substring | [Solution](src/main/java/strings/MinWindowSubstring.java)
 Remove Duplicates | [Solution](src/main/java/strings/RemoveDuplicates.java)
+Group Anagrams | [Solution](src/main/java/strings/GroupAnagrams.java)
+Longest Repeating Substring | [Solution](src/main/java/strings/LongestSubstring.java)
 
 ------------------------------------------------------------------------
 # Backtracking
