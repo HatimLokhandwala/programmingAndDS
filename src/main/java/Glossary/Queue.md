@@ -1,9 +1,9 @@
 ---------------------------------------------------------------------------------
 Use Case             | API
 -------------------- | -------------------------------------------------
-Creation             | Stack()
-add an element       | push()
+Creation             | LinkedList() / PriorityQueue()
+add an element       | add() //adds in the end
 checkEmpty           | isEmpty()
 get top element      | peek()
-remove top element   | pop()
+remove top element   | poll()
 ------------------------------------------------------------------------
