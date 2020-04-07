@@ -7,15 +7,6 @@ import java.util.List;
  * Created by hatim.lokhandwala on 27/05/19.
  */
 
-
-class ListNode {
-	int val;
-	ListNode next;
-	ListNode(int val){
-		this.val = val;
-		this.next = null;
-	}
-}
 public class ReverseList {
 		static ListNode head = null, tail = null;
 
