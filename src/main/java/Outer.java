@@ -1,4 +1,36 @@
-package PACKAGE_NAME;
+public class Outer
+{
+    Outer()
+    {
+        System.out.print("out");
+        try{
+            System.out.println("H");
+            throw new RuntimeException();
+        }
+        finally {
+            System.out.println("I");
+        }
+    }
 
-public class Outer {
+    class Inner
+    {
+        Inner()
+        {
+            System.out.print("in");
+        }
+        public void go()
+        {
+            System.out.print("go_in");
+        }
+    }
+
+    public static void main (String [] args)
+    {
+        Outer obj = new Outer();
+        obj.fun();
+    }
+    void fun()
+    {
+        (new Inner() {}).go();
+    }
 }

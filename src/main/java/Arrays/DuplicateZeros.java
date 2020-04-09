@@ -1,4 +1,6 @@
-class DuplicateZeros {
+package Arrays;
+
+public class DuplicateZeros {
     public void duplicateZeros(int[] arr) {
         if(arr.length == 0) {
             return;
@@ -33,5 +35,10 @@ class DuplicateZeros {
                 last--;
             }
         }
+    }
+
+    public static void main(String[] args) {
+
+
     }
 }
