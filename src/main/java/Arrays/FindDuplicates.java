@@ -1,5 +1,9 @@
+package Arrays;
 //given an array of integers where 1<= a[i] <= n  (n = size of array)
 //determine all the elements that appear twice
+
+import java.util.ArrayList;
+import java.util.List;
 
 //Use arrays elements to store the counts, to distinguish between count and the actual value, store counts as negative value.
 class FindDuplicates{
