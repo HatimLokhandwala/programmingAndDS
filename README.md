@@ -63,6 +63,12 @@ Question             | Solution
 N Queens | [Solution](src/main/java/BackTracking/NQueens.java)
 
 ------------------------------------------------------------------------
+# Two Pointers
+Question             | Solution
+-------------------- | --------------------
+Container With Most Water | [Solution](src/main/java/TwoPointers/ContainerWithMostWater.java)
+
+------------------------------------------------------------------------
 # Misc
 Question             | Solution
 -------------------- | --------------------
