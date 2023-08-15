@@ -14,10 +14,10 @@ class Node{
     }
 }
 
-class LinkedList{
+class LinkedListU{
     Node head;
     Node tail;
-    LinkedList(){
+    LinkedListU(){
         head = null;
         tail = null;
     }
@@ -64,7 +64,7 @@ public class Deletion{
         testCases = sc.nextInt();
         while(testCases>0){
             int n = sc.nextInt();
-            LinkedList l = new LinkedList();
+            LinkedListU l = new LinkedListU();
             while(n>0){
                 l.insert(sc.nextInt());
                 n--;

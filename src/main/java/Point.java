@@ -8,7 +8,7 @@
  *
  ******************************************************************************/
 
-import edu.princeton.cs.algs4.StdDraw;
+//import edu.princeton.cs.algs4.StdDraw;
 
 import java.util.Comparator;
 import java.util.Objects;
@@ -32,7 +32,7 @@ public class Point implements Comparable<Point> {
      */
     public void draw() {
         /* DO NOT MODIFY */
-        StdDraw.point(x, y);
+//        StdDraw.point(x, y);
     }
 
     /**
@@ -43,7 +43,7 @@ public class Point implements Comparable<Point> {
      */
     public void drawTo(Point that) {
         /* DO NOT MODIFY */
-        StdDraw.line(this.x, this.y, that.x, that.y);
+//        StdDraw.line(this.x, this.y, that.x, that.y);
     }
 
     /**

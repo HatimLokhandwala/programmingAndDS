@@ -38,13 +38,13 @@ public class FastCollinearPoints {
         }
     }
 
-    public int numberOfSegments() {
-        return segments().length;
+    public void numberOfSegments() {
+         segments();
     }
 
-    public LineSegment[] segments() {
+    public void segments() {
 
-        List<LineSegment> list = new ArrayList<>();
+//        List<LineSegment> list = new ArrayList<>();
         int length = points.length;
         Arrays.sort(points);
         for (int i = 0; i < length; i++) {
@@ -60,8 +60,8 @@ public class FastCollinearPoints {
                 if (previousSlope.compareTo(currentSlope) != 0) {
                     int size = collinear.size();
                     if (size >= 3 && pivot.compareTo(collinear.get(0)) < 0) {
-                        LineSegment ls = new LineSegment(pivot, collinear.get(size - 1));
-                        list.add(ls);
+//                        LineSegment ls = new LineSegment(pivot, collinear.get(size - 1));
+//                        list.add(ls);
                     }
                     collinear.clear();
                 }
@@ -70,12 +70,12 @@ public class FastCollinearPoints {
             }
             int size = collinear.size();
             if (size >= 3 && pivot.compareTo(collinear.get(0)) < 0) {
-                LineSegment ls = new LineSegment(pivot, collinear.get(size - 1));
-                list.add(ls);
+//                LineSegment ls = new LineSegment(pivot, collinear.get(size - 1));
+//                list.add(ls);
             }
         }
-        LineSegment[] lineSegmentArr = new LineSegment[list.size()];
-        return list.toArray(lineSegmentArr);
+//        LineSegment[] lineSegmentArr = new LineSegment[list.size()];
+//        return null;
     }
 
     public static void main(String[] args) {

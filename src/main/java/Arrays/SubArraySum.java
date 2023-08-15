@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.awt.image.IndexColorModel;
 import java.util.Scanner;
 
 
