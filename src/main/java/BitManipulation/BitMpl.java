@@ -2,17 +2,28 @@ package BitManipulation;
 
 import com.sun.tools.javac.util.Pair;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+class Sample {
+    public String getSecretString() {
+        return "hello";
+    }
 
+    Character[] getSecretBinary() {
+        return new Character[]{'a','b', 'c'};
+    }
+}
 public class BitMpl {
     static Pair<Integer, Integer> determineDistinctNonMatchingElements(int[] arr) {
         if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("Array cannot be empty or null");
         }
+
         int xorOfElements = determineXor(IntStream.of(arr).boxed().collect(Collectors.toList()));
         int indexOfFirstSetBit = getSetBit(xorOfElements);
         List<Integer> groupOne = getElementsWithBitSetAtGivenIndex(arr, indexOfFirstSetBit);
@@ -22,7 +33,14 @@ public class BitMpl {
         return Pair.of(elementOne, elementTwo);
     }
 
+    String getStrValue() {
+        Sample s = new Sample();
+        return Optional.of(s.getSecretString())
+                .orElse(s.getSecretBinary().toString());
+    }
     static int determineXor(List<Integer> group) {
+        String s = null;
+
         int xor = 0;
         for (int elem: group) {
             xor = xor ^ elem;
