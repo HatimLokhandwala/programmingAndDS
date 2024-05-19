@@ -27,5 +27,19 @@ public class CountWaysForDelivery {
         }
         return (int)res;
     }
+    public static void computeAverage() {
+        int salarySum  = 962;
+        int count = 5;
+        float ans = (float) salarySum / count;
+        int threshold = 192;
+
+        if (threshold >= ans ) {
+            System.out.println("hello");
+        }
+    }
+
+    public static void main(String[] args) {
+        computeAverage();
+    }
 
 }
